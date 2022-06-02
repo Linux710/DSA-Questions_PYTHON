@@ -1,9 +1,10 @@
-# Two Sum solution in O(n) using Enumerate Function (Key-Value Pair data structure like dictionary)
+# Two Sum solution in O(n) using Dictionary 
+
 
 
 #---------[ Two Sum Function ]-------------------------
 def twoSum(nums,target):
-     values = {}
+     values = {}    # empty Dictionary
      for idx,value in enumerate(nums):
          if target-value in values:
              return [values[target-value],idx]
