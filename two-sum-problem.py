@@ -11,6 +11,6 @@ def twoSum(nums,target):
              values[value] = idx
 #-------------[ End of Function ]-------------------------
 myList  = [1,9,9,3,2]
-t = 12
+v = 12
 
-print(twoSum(myList,t))
+print(twoSum(myList,v))
