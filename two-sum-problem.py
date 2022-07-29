@@ -13,4 +13,4 @@ def twoSum(nums,target):
 myList  = [1,9,9,3,2]
 v = 12
 
-print(twoSum(myList,v))
+print(twoSum(myList,v)) // print
