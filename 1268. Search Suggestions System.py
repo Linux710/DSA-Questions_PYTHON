@@ -10,4 +10,4 @@ class Solution:
             prefix+=c
             i=bisect_left(products, prefix,i)
             res.append([w for w in products[i:i+3] if w.startswith(prefix)])        
-        return res 
+        return res #ans
