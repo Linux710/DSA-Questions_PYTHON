@@ -12,5 +12,5 @@ def twoSum(nums,target):
 #-------------[ End of Function ]-------------------------
 myList  = [1,9,9,3,2]
 v = 12
-
-print(twoSum(myList,v)) //print results 
+// output
+print(twoSum(myList,v)) //print 
