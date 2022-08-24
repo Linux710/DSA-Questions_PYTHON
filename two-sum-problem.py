@@ -10,7 +10,7 @@ def twoSum(nums,target):
          else:
              values[value] = idx
 #-------------[ End of Function ]-------------------------
-myList  = [1,9,9,3,2]
+myList  = [1,9,9,3,2]//
 v = 12
 // output
 print(twoSum(myList,v)) //printt
